@@ -28,7 +28,7 @@ describe("Peshawar Automation", () => {
     cy.get("#basic_password").click().type("123456");
     cy.get('[type="submit"]').click();
     cy.wait(4000);
-    // console.log(jdata);
+    console.log("haha");
     //console.log(data.uc);
     // console.log(southkpData);
   });
