@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-01T07:41:20.966Z",
+    "end": "2022-03-01T07:41:52.405Z",
+    "duration": 31439,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c71741ba-99f7-455a-b1eb-081546c499e3",
+      "title": "",
+      "fullFile": "cypress/integration/GCSS-Test-Folder/loopTest.js",
+      "file": "cypress/integration/GCSS-Test-Folder/loopTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "474c4a0a-1cd7-49aa-bdaa-b46daba0b592",
+          "title": "gcss dash",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case",
+              "fullTitle": "gcss dash test case",
+              "timedOut": null,
+              "duration": 12672,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// console.log(\n//   \"worked for = \",\n//   metadata.province,\n//   metadata.district,\n//   metadata.tehsil,\n//   metadata.uc\n// );\ncy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${metadata.province}&district=${metadata.district}&tehsil=${metadata.tehsil}&uc=${metadata.uc}&renderMap=1`);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "fa383b7b-aebc-45a8-87b3-694a2cbbef9b",
+              "parentUUID": "474c4a0a-1cd7-49aa-bdaa-b46daba0b592",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fa383b7b-aebc-45a8-87b3-694a2cbbef9b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12672,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "0564fb17-4e4e-4621-b0cf-79e8de228952",
+          "title": "gcss dash",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case",
+              "fullTitle": "gcss dash test case",
+              "timedOut": null,
+              "duration": 5532,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// console.log(\n//   \"worked for = \",\n//   metadata.province,\n//   metadata.district,\n//   metadata.tehsil,\n//   metadata.uc\n// );\ncy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${metadata.province}&district=${metadata.district}&tehsil=${metadata.tehsil}&uc=${metadata.uc}&renderMap=1`);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "a4a84223-adde-4a83-952e-d9630d985fbb",
+              "parentUUID": "0564fb17-4e4e-4621-b0cf-79e8de228952",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a4a84223-adde-4a83-952e-d9630d985fbb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5532,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "87ea5af8-23f4-407e-9fd7-9f49295247c6",
+          "title": "gcss dash",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case",
+              "fullTitle": "gcss dash test case",
+              "timedOut": null,
+              "duration": 5206,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// console.log(\n//   \"worked for = \",\n//   metadata.province,\n//   metadata.district,\n//   metadata.tehsil,\n//   metadata.uc\n// );\ncy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${metadata.province}&district=${metadata.district}&tehsil=${metadata.tehsil}&uc=${metadata.uc}&renderMap=1`);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "58f37630-3ec9-4a3e-a552-91b66c6fb45b",
+              "parentUUID": "87ea5af8-23f4-407e-9fd7-9f49295247c6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "58f37630-3ec9-4a3e-a552-91b66c6fb45b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5206,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c8001f3a-e69c-4f32-bee4-1be9bc82bb34",
+          "title": "gcss dash",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case",
+              "fullTitle": "gcss dash test case",
+              "timedOut": null,
+              "duration": 5735,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// console.log(\n//   \"worked for = \",\n//   metadata.province,\n//   metadata.district,\n//   metadata.tehsil,\n//   metadata.uc\n// );\ncy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${metadata.province}&district=${metadata.district}&tehsil=${metadata.tehsil}&uc=${metadata.uc}&renderMap=1`);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "1bfcd18d-19bd-4053-890a-0d47f9a401a9",
+              "parentUUID": "c8001f3a-e69c-4f32-bee4-1be9bc82bb34",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1bfcd18d-19bd-4053-890a-0d47f9a401a9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5735,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

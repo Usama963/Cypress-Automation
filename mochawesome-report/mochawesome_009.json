@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-01T07:40:09.801Z",
+    "end": "2022-03-01T07:41:18.080Z",
+    "duration": 68279,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c5a58c6d-4dd2-4e98-aa00-931a13578218",
+      "title": "",
+      "fullFile": "cypress/integration/GCSS-Test-Folder/LoopHooksWithAfter.js",
+      "file": "cypress/integration/GCSS-Test-Folder/LoopHooksWithAfter.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+          "title": "GCSS Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "testing for Akhoon Abad ",
+              "fullTitle": "GCSS Test Suite testing for Akhoon Abad ",
+              "timedOut": null,
+              "duration": 15470,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${province}&district=${district}&tehsil=${tehsil}&uc=${uc}&renderMap=1`);\ncy.wait(8000);",
+              "err": {},
+              "uuid": "1293c8ee-308f-44c6-a875-e257d1c9dff6",
+              "parentUUID": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "testing for Shaheen Muslim Twn1 ",
+              "fullTitle": "GCSS Test Suite testing for Shaheen Muslim Twn1 ",
+              "timedOut": null,
+              "duration": 14555,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${province}&district=${district}&tehsil=${tehsil}&uc=${uc}&renderMap=1`);\ncy.wait(8000);",
+              "err": {},
+              "uuid": "326c27ff-611e-49ce-afe0-69a3c55a5b27",
+              "parentUUID": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "testing for Shaheen Muslim Twn2 ",
+              "fullTitle": "GCSS Test Suite testing for Shaheen Muslim Twn2 ",
+              "timedOut": null,
+              "duration": 14846,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${province}&district=${district}&tehsil=${tehsil}&uc=${uc}&renderMap=1`);\ncy.wait(8000);",
+              "err": {},
+              "uuid": "ce1eb3d2-e2c3-4d7e-ac8b-997e76d2c829",
+              "parentUUID": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "testing for Sheikh Junaid Abad ",
+              "fullTitle": "GCSS Test Suite testing for Sheikh Junaid Abad ",
+              "timedOut": null,
+              "duration": 14708,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(`https://gcss.eoc.gov.pk/campaigns?province=${province}&district=${district}&tehsil=${tehsil}&uc=${uc}&renderMap=1`);\ncy.wait(8000);",
+              "err": {},
+              "uuid": "541c983f-a5ec-4b46-871e-952e71dfd9be",
+              "parentUUID": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test check",
+              "fullTitle": "GCSS Test Suite test check",
+              "timedOut": null,
+              "duration": 6148,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"test 2\");",
+              "err": {},
+              "uuid": "6dfe6d1f-59fa-4ea7-bbf3-ae83eb7b00df",
+              "parentUUID": "21a5133e-7296-4e26-a01d-7ed33c1c72df",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1293c8ee-308f-44c6-a875-e257d1c9dff6",
+            "326c27ff-611e-49ce-afe0-69a3c55a5b27",
+            "ce1eb3d2-e2c3-4d7e-ac8b-997e76d2c829",
+            "541c983f-a5ec-4b46-871e-952e71dfd9be",
+            "6dfe6d1f-59fa-4ea7-bbf3-ae83eb7b00df"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 65727,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

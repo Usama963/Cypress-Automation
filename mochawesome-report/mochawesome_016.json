@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-05T20:44:39.194Z",
+    "end": "2022-03-05T20:44:39.335Z",
+    "duration": 141,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d0748d45-1d98-4f57-8f8d-c1ef2ba98eed",
+      "title": "",
+      "fullFile": "cypress/integration/GCSS-Test-Folder/automation.js",
+      "file": "cypress/integration/GCSS-Test-Folder/automation.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bd486e7d-625d-4059-9126-30aab8c44134",
+          "title": "GCSS Dashboard Test Suit",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Show POIs Toggle (Peshawar)",
+              "fullTitle": "GCSS Dashboard Test Suit Show POIs Toggle (Peshawar)",
+              "timedOut": null,
+              "duration": 113,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const newData = await cy.readFile(_constants.file_path);\nconst jsonData = (0, _csvToJson.default)(newData); ////////////////////////////////\n//CODE STARTS ////////\ncy.visit(_constants.base_url);\ncy.contains(\"GCSS Visualization Tool\").should(\"exist\");\ncy.get(\"#basic_username\").click().type(_constants.username);\ncy.get(\"#basic_password\").click().type(_constants.password);\ncy.get('[type=\"submit\"]').click();\ncy.wait(3000); // FOR PESHAWAR\nconsole.log(jsonData.length);\nvar counter = 1;\nfor (const data of jsonData) {\n  if (counter == 1) {\n    var temp = cy.get('[id=\"rc_select_1\"]');\n    temp.click({\n      force: true\n    });\n    cy.contains(data.province_name).click();\n    cy.wait(3000); // cy.scrollTo(\"top\");\n    var temp2 = cy.get('[id=\"rc_select_2\"]');\n    temp2.click({\n      force: true\n    });\n    cy.contains(data.district_name).click();\n    cy.wait(3000);\n    var temp3 = cy.get('[id=\"rc_select_3\"]');\n    temp3.click({\n      force: true\n    });\n    cy.contains(data.tehsil_name).click();\n    cy.wait(3000);\n    counter++;\n  }\n  var temp4 = cy.get('[id=\"rc_select_4\"]');\n  temp4.click({\n    force: true\n  });\n  cy.contains(data.uc_name).click();\n  cy.wait(3000);\n  cy.contains(\"View on Map\").click();\n  cy.wait(5000);\n  cy.xpath(_constants.POI_Toggle_Xpath).click().should(\"have.text\", \"On\");\n  cy.wait(3000);\n  cy.screenshot({\n    capture: \"fullPage\"\n  });\n} // var temp = cy.get('[id=\"rc_select_1\"]');\n// temp.click({ force: true });\n// cy.contains(jsonData[0].province_name).click();\n// cy.wait(3000);\n// // cy.scrollTo(\"top\");\n// var temp2 = cy.get('[id=\"rc_select_2\"]');\n// temp2.click({ force: true });\n// cy.contains(jsonData[0].district_name).click();\n// cy.wait(3000);\n// var temp3 = cy.get('[id=\"rc_select_3\"]');\n// temp3.click({ force: true });\n// cy.contains(jsonData[0].tehsil_name).click();\n// cy.wait(3000);\n// var temp4 = cy.get('[id=\"rc_select_4\"]');\n// temp4.click({ force: true });\n// cy.contains(jsonData[0].uc_name).click();\n// cy.wait(3000);\n// cy.contains(\"View on Map\").click();\n// cy.wait(5000);\n// cy.xpath(POI_Toggle_Xpath).click();\n// cy.wait(3000);\n// cy.screenshot({\n//   capture: \"fullPage\",\n// });",
+              "err": {},
+              "uuid": "524f3cbb-1744-49f6-a7c1-014dd785192d",
+              "parentUUID": "bd486e7d-625d-4059-9126-30aab8c44134",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "524f3cbb-1744-49f6-a7c1-014dd785192d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 113,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

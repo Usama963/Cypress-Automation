@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-02-16T14:32:34.587Z",
+    "end": "2022-02-16T14:32:35.049Z",
+    "duration": 462,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "79c57346-d3ab-4b3f-8c5b-1906d7637f80",
+      "title": "",
+      "fullFile": "cypress/integration/test2.js",
+      "file": "cypress/integration/test2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e9ae3cd6-34c8-4251-8905-30e7f05a9d7b",
+          "title": "testing_reports",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test-1",
+              "fullTitle": "testing_reports test-1",
+              "timedOut": null,
+              "duration": 17,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"testing-1\");",
+              "err": {},
+              "uuid": "a1fd3814-cf80-40d4-ba9a-785136d32267",
+              "parentUUID": "e9ae3cd6-34c8-4251-8905-30e7f05a9d7b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test-2",
+              "fullTitle": "testing_reports test-2",
+              "timedOut": null,
+              "duration": 313,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\test2.js\\\\testing_reports -- test-2 (failed).png\"\n      }\n    ]\n  ]\n}",
+              "code": "console.log(\"testing-2\");\ncy.visit(url1alks / sad / fa / s);",
+              "err": {
+                "message": "ReferenceError: url1alks is not defined",
+                "estack": "ReferenceError: url1alks is not defined\n    at Context.eval (http://localhost:53226/__cypress/tests?p=cypress\\integration\\test2.js:119:14)",
+                "diff": null
+              },
+              "uuid": "0eae36c4-b140-47bf-b16a-555e5ea7c4ff",
+              "parentUUID": "e9ae3cd6-34c8-4251-8905-30e7f05a9d7b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test-2",
+              "fullTitle": "testing_reports test-2",
+              "timedOut": null,
+              "duration": 17,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"testing-3\");",
+              "err": {},
+              "uuid": "240733a2-6387-48d5-80e2-e0fcb3c3a56e",
+              "parentUUID": "e9ae3cd6-34c8-4251-8905-30e7f05a9d7b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a1fd3814-cf80-40d4-ba9a-785136d32267",
+            "240733a2-6387-48d5-80e2-e0fcb3c3a56e"
+          ],
+          "failures": [
+            "0eae36c4-b140-47bf-b16a-555e5ea7c4ff"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 347,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
